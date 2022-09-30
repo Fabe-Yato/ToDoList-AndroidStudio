@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.cursokotlin.todolist">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--android: name Indica qual é a classe que cuida da aplicação-->
     <application
+        android:name=".TodoApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
